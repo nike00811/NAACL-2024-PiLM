@@ -1,0 +1,5 @@
+python main.py --prefix_set "../data/prefixes/topic_prefixes.json" --data_dir "../data/word_list/" --stepsize 0.2 --M 5 --ppl_weight '-0.2' --sample --save_latent --seed 20 --output_dir "PiLM-RL-results/outputs_seed20"
+python main.py --prefix_set "../data/prefixes/topic_prefixes.json" --data_dir "../data/word_list/" --stepsize 0.2 --M 5 --ppl_weight '-0.2' --sample --save_latent --seed 21 --output_dir "PiLM-RL-results/outputs_seed21"
+python main.py --prefix_set "../data/prefixes/topic_prefixes.json" --data_dir "../data/word_list/" --stepsize 0.2 --M 5 --ppl_weight '-0.2' --sample --save_latent --seed 22 --output_dir "PiLM-RL-results/outputs_seed22"
+
+python main.py --prefix_set "../data/prefixes/topic_prefixes.json" --data_dir "../data/word_list/" --stepsize 0.2 --M 5 --ppl_weight '-0.2' --sample --save_latent --seed 22 --output_dir "PiLM-RL-results-eval/outputs_seed23"

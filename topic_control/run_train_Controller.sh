@@ -1,0 +1,7 @@
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Science"   --output_dir "Controllers/controller-Science"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Space"     --output_dir "Controllers/controller-Space"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Politics"  --output_dir "Controllers/controller-Politics"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Military"  --output_dir "Controllers/controller-Military"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Religion"  --output_dir "Controllers/controller-Religion"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Computers" --output_dir "Controllers/controller-Computers"
+python train_controller.py --train_dir 'PiLM-RL-results/outputs_seed*' --eval_dir 'PiLM-RL-results-eval/outputs_seed*' --attribute "Legal"     --output_dir "Controllers/controller-Legal"
