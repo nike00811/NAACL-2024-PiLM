@@ -1,5 +1,5 @@
 python main.py \
---prefix_set '../top100-horrible-continuation.json' \
+--prefix_set '../data/prefixes/top100-continuation-real_toxicity_prompts.json' \
 --sample  \
 --use_controller \
 --controller "Controllers/controller-detoxic/final_model.pt" \
@@ -7,7 +7,7 @@ python main.py \
 --output_dir "PiLM-Controller-results/outputs_seed20"
 
 python main.py \
---prefix_set '../top100-horrible-continuation.json' \
+--prefix_set '../data/prefixes/top100-continuation-real_toxicity_prompts.json' \
 --sample  \
 --use_controller \
 --controller "Controllers/controller-detoxic/final_model.pt" \
@@ -15,7 +15,7 @@ python main.py \
 --output_dir "PiLM-Controller-results/outputs_seed21"
 
 python main.py \
---prefix_set '../top100-horrible-continuation.json' \
+--prefix_set '../data/prefixes/top100-continuation-real_toxicity_prompts.json' \
 --sample  \
 --use_controller \
 --controller "Controllers/controller-detoxic/final_model.pt" \
